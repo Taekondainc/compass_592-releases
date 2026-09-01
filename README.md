@@ -2,6 +2,8 @@
 
 **592 Compass** is a desktop app for turning your GitHub activity into clear monthly and yearly work reports — with AI summaries, submission templates, evidence packs, and local task tracking.
 
+![592 Compass — submission reports dashboard](assets/app-screenshot.png)
+
 This repository contains **official Windows builds only**. Source code lives in the main [592-compass](https://github.com/Taekondainc/592-compass) repo.
 
 ---

@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+*.blockmap
+builder-debug.yml
+latest.yml

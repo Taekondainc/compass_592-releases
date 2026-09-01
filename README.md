@@ -8,17 +8,17 @@ Official builds for **Windows**, **macOS**, and **Linux**. Source code: [592-com
 
 ---
 
-## Latest version — Beta 2.0.0
+## Latest version — Beta 2.1.0
 
 | Platform | Download |
 |----------|----------|
-| **Windows** (installer) | [592-Compass-Beta-2.0.0-Windows-Setup.exe](releases/592-Compass-Beta-2.0.0-Windows-Setup.exe) |
-| **Windows** (portable) | [592-Compass-Beta-2.0.0-Windows-Portable.exe](releases/592-Compass-Beta-2.0.0-Windows-Portable.exe) |
-| **macOS** (Apple Silicon) | [DMG](releases/592-Compass-Beta-2.0.0-macOS-AppleSilicon.dmg) · [ZIP](releases/592-Compass-Beta-2.0.0-macOS-AppleSilicon.zip) |
-| **macOS** (Intel) | [DMG](releases/592-Compass-Beta-2.0.0-macOS-Intel.dmg) · [ZIP](releases/592-Compass-Beta-2.0.0-macOS-Intel.zip) |
-| **Linux** | [AppImage](releases/592-Compass-Beta-2.0.0-Linux.AppImage) · [DEB](releases/592-Compass-Beta-2.0.0-Linux.deb) |
+| **Windows** (installer) | [592-Compass-Beta-2.1.0-Windows-Setup.exe](releases/592-Compass-Beta-2.1.0-Windows-Setup.exe) |
+| **Windows** (portable) | [592-Compass-Beta-2.1.0-Windows-Portable.exe](releases/592-Compass-Beta-2.1.0-Windows-Portable.exe) |
+| **macOS** (Apple Silicon) | [DMG](releases/592-Compass-Beta-2.1.0-macOS-AppleSilicon.dmg) · [ZIP](releases/592-Compass-Beta-2.1.0-macOS-AppleSilicon.zip) |
+| **macOS** (Intel) | [DMG](releases/592-Compass-Beta-2.1.0-macOS-Intel.dmg) · [ZIP](releases/592-Compass-Beta-2.1.0-macOS-Intel.zip) |
+| **Linux** | [AppImage](releases/592-Compass-Beta-2.1.0-Linux.AppImage) · [DEB](releases/592-Compass-Beta-2.1.0-Linux.deb) |
 
-> **2.0.0** — cross-platform desktop builds, cached month reports, chunked AI summaries, Groq key fixes, submission templates, and evidence pack export.
+> **2.1.0** — GitHub OAuth sign-in, instant cached month reports, PR diff–aware AI summaries, cancel button, styled Pro PDF exports, faster AI batching.
 
 ---
 
@@ -40,22 +40,22 @@ Official builds for **Windows**, **macOS**, and **Linux**. Source code: [592-com
 
 **AppImage (recommended):**
 ```bash
-chmod +x 592-Compass-Beta-2.0.0-Linux.AppImage
-./592-Compass-Beta-2.0.0-Linux.AppImage
+chmod +x 592-Compass-Beta-2.1.0-Linux.AppImage
+./592-Compass-Beta-2.1.0-Linux.AppImage
 ```
 
 **Debian/Ubuntu:**
 ```bash
-sudo dpkg -i 592-Compass-Beta-2.0.0-Linux.deb
+sudo dpkg -i 592-Compass-Beta-2.1.0-Linux.deb
 ```
 
 ---
 
 ## How to use
 
-1. **Sign in** with your GitHub username and a [Personal Access Token](https://github.com/settings/tokens) (`repo` scope).
-2. **Settings → AI reports** — add a Groq key (`gsk_…`) for AI summaries ([free at console.groq.com/keys](https://console.groq.com/keys)).
-3. Pick a **year** and **month**, open a report, export with templates (Standard, Performance, Client, etc.).
+1. **Sign in** — click **Continue with GitHub** (browser OAuth) or use a [Personal Access Token](https://github.com/settings/tokens) (`repo` scope).
+2. **AI reports** — Groq is bundled in official builds; optional Pro license unlocks styled PDF exports in Settings.
+3. Pick a **year** and **month**, open a report (cached instantly, refreshes in background), export with templates.
 4. Use **Tasks** for local plan-vs-shipped tracking.
 
 ---
@@ -64,7 +64,8 @@ sudo dpkg -i 592-Compass-Beta-2.0.0-Linux.deb
 
 | Version | Installer | Portable |
 |---------|-----------|----------|
-| **2.0.0** (latest) | [Setup](releases/592-Compass-Beta-2.0.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.0.0-Windows-Portable.exe) |
+| **2.1.0** (latest) | [Setup](releases/592-Compass-Beta-2.1.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.1.0-Windows-Portable.exe) |
+| 2.0.0 | [Setup](releases/592-Compass-Beta-2.0.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.0.0-Windows-Portable.exe) |
 | 1.9.1 | [Setup](releases/592-Compass-Beta-1.9.1-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.1-Portable.exe) |
 | 1.9.0 | [Setup](releases/592-Compass-1.9.0-Setup.exe) | [Portable](releases/592-Compass-1.9.0-Portable.exe) |
 
@@ -73,7 +74,7 @@ sudo dpkg -i 592-Compass-Beta-2.0.0-Linux.deb
 ## Requirements
 
 - **Windows 10/11**, **macOS 11+**, or **Ubuntu 20.04+** / Debian-based Linux (64-bit)
-- GitHub account with a Personal Access Token
+- GitHub account
 - Internet for GitHub API and optional AI features
 
 ---

@@ -8,17 +8,17 @@ Official builds for **Windows**, **macOS**, and **Linux**. Source code: [592-com
 
 ---
 
-## Latest version — Beta 2.1.0
+## Latest version — Beta 2.2.0
 
 | Platform | Download |
 |----------|----------|
-| **Windows** (installer) | [592-Compass-Beta-2.1.0-Windows-Setup.exe](releases/592-Compass-Beta-2.1.0-Windows-Setup.exe) |
-| **Windows** (portable) | [592-Compass-Beta-2.1.0-Windows-Portable.exe](releases/592-Compass-Beta-2.1.0-Windows-Portable.exe) |
-| **macOS** (Apple Silicon) | [DMG](releases/592-Compass-Beta-2.1.0-macOS-AppleSilicon.dmg) · [ZIP](releases/592-Compass-Beta-2.1.0-macOS-AppleSilicon.zip) |
-| **macOS** (Intel) | [DMG](releases/592-Compass-Beta-2.1.0-macOS-Intel.dmg) · [ZIP](releases/592-Compass-Beta-2.1.0-macOS-Intel.zip) |
-| **Linux** | [AppImage](releases/592-Compass-Beta-2.1.0-Linux.AppImage) · [DEB](releases/592-Compass-Beta-2.1.0-Linux.deb) |
+| **Windows** (installer) | [592-Compass-Beta-2.2.0-Windows-Setup.exe](releases/592-Compass-Beta-2.2.0-Windows-Setup.exe) |
+| **Windows** (portable) | [592-Compass-Beta-2.2.0-Windows-Portable.exe](releases/592-Compass-Beta-2.2.0-Windows-Portable.exe) |
+| **macOS** (Apple Silicon) | [DMG](releases/592-Compass-Beta-2.2.0-macOS-AppleSilicon.dmg) · [ZIP](releases/592-Compass-Beta-2.2.0-macOS-AppleSilicon.zip) |
+| **macOS** (Intel) | [DMG](releases/592-Compass-Beta-2.2.0-macOS-Intel.dmg) · [ZIP](releases/592-Compass-Beta-2.2.0-macOS-Intel.zip) |
+| **Linux** | [AppImage](releases/592-Compass-Beta-2.2.0-Linux.AppImage) · [DEB](releases/592-Compass-Beta-2.2.0-Linux.deb) |
 
-> **2.1.0** — GitHub OAuth sign-in, instant cached month reports, PR diff–aware AI summaries, cancel button, styled Pro PDF exports, faster AI batching.
+> **2.2.0** — Task app sync (Linear, Jira, GitHub Issues, Asana), report templates with charts, faster month loading, branch matching in reports.
 
 ---
 
@@ -40,13 +40,13 @@ Official builds for **Windows**, **macOS**, and **Linux**. Source code: [592-com
 
 **AppImage (recommended):**
 ```bash
-chmod +x 592-Compass-Beta-2.1.0-Linux.AppImage
-./592-Compass-Beta-2.1.0-Linux.AppImage
+chmod +x 592-Compass-Beta-2.2.0-Linux.AppImage
+./592-Compass-Beta-2.2.0-Linux.AppImage
 ```
 
 **Debian/Ubuntu:**
 ```bash
-sudo dpkg -i 592-Compass-Beta-2.1.0-Linux.deb
+sudo dpkg -i 592-Compass-Beta-2.2.0-Linux.deb
 ```
 
 ---
@@ -64,7 +64,8 @@ sudo dpkg -i 592-Compass-Beta-2.1.0-Linux.deb
 
 | Version | Installer | Portable |
 |---------|-----------|----------|
-| **2.1.0** (latest) | [Setup](releases/592-Compass-Beta-2.1.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.1.0-Windows-Portable.exe) |
+| **2.2.0** (latest) | [Setup](releases/592-Compass-Beta-2.2.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.2.0-Windows-Portable.exe) |
+| 2.1.0 | [Setup](releases/592-Compass-Beta-2.1.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.1.0-Windows-Portable.exe) |
 | 2.0.0 | [Setup](releases/592-Compass-Beta-2.0.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.0.0-Windows-Portable.exe) |
 | 1.9.1 | [Setup](releases/592-Compass-Beta-1.9.1-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.1-Portable.exe) |
 | 1.9.0 | [Setup](releases/592-Compass-1.9.0-Setup.exe) | [Portable](releases/592-Compass-1.9.0-Portable.exe) |

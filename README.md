@@ -8,17 +8,17 @@ Official builds for **Windows**, **macOS**, and **Linux**. Source code: [592-com
 
 ---
 
-## Latest version — Beta 2.2.0
+## Latest version — Beta 2.2.1
 
 | Platform | Download |
 |----------|----------|
-| **Windows** (installer) | [592-Compass-Beta-2.2.0-Windows-Setup.exe](releases/592-Compass-Beta-2.2.0-Windows-Setup.exe) |
-| **Windows** (portable) | [592-Compass-Beta-2.2.0-Windows-Portable.exe](releases/592-Compass-Beta-2.2.0-Windows-Portable.exe) |
-| **macOS** (Apple Silicon) | [DMG](releases/592-Compass-Beta-2.2.0-macOS-AppleSilicon.dmg) · [ZIP](releases/592-Compass-Beta-2.2.0-macOS-AppleSilicon.zip) |
-| **macOS** (Intel) | [DMG](releases/592-Compass-Beta-2.2.0-macOS-Intel.dmg) · [ZIP](releases/592-Compass-Beta-2.2.0-macOS-Intel.zip) |
-| **Linux** | [AppImage](releases/592-Compass-Beta-2.2.0-Linux.AppImage) · [DEB](releases/592-Compass-Beta-2.2.0-Linux.deb) |
+| **Windows** (installer) | [592-Compass-Beta-2.2.1-Windows-Setup.exe](releases/592-Compass-Beta-2.2.1-Windows-Setup.exe) |
+| **Windows** (portable) | [592-Compass-Beta-2.2.1-Windows-Portable.exe](releases/592-Compass-Beta-2.2.1-Windows-Portable.exe) |
+| **macOS** (Apple Silicon) | [DMG](releases/592-Compass-Beta-2.2.1-macOS-AppleSilicon.dmg) · [ZIP](releases/592-Compass-Beta-2.2.1-macOS-AppleSilicon.zip) |
+| **macOS** (Intel) | [DMG](releases/592-Compass-Beta-2.2.1-macOS-Intel.dmg) · [ZIP](releases/592-Compass-Beta-2.2.1-macOS-Intel.zip) |
+| **Linux** | [AppImage](releases/592-Compass-Beta-2.2.1-Linux.AppImage) · [DEB](releases/592-Compass-Beta-2.2.1-Linux.deb) |
 
-> **2.2.0** — Task app sync (Linear, Jira, GitHub Issues, Asana), report templates with charts, faster month loading, branch matching in reports.
+> **2.2.1** — GitHub sign-in now uses device code flow (no more 404s from misconfigured redirect URIs — just a code to enter on github.com), fixes the AI report cancel button, adds style notes for exported reports, and removes the Pro license gate so styled PDF exports are free for everyone.
 
 ---
 
@@ -53,8 +53,8 @@ sudo dpkg -i 592-Compass-Beta-2.2.0-Linux.deb
 
 ## How to use
 
-1. **Sign in** — click **Continue with GitHub** (browser OAuth) or use a [Personal Access Token](https://github.com/settings/tokens) (`repo` scope).
-2. **AI reports** — Groq is bundled in official builds; optional Pro license unlocks styled PDF exports in Settings.
+1. **Sign in** — click **Continue with GitHub**, then enter the code shown in the browser tab that opens (device code sign-in — no redirect URI issues). A [Personal Access Token](https://github.com/settings/tokens) (`repo` scope) also works.
+2. **AI reports** — Groq is bundled in official builds; styled PDF exports are free for everyone in Settings.
 3. Pick a **year** and **month**, open a report (cached instantly, refreshes in background), export with templates.
 4. Use **Tasks** for local plan-vs-shipped tracking.
 
@@ -64,7 +64,8 @@ sudo dpkg -i 592-Compass-Beta-2.2.0-Linux.deb
 
 | Version | Installer | Portable |
 |---------|-----------|----------|
-| **2.2.0** (latest) | [Setup](releases/592-Compass-Beta-2.2.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.2.0-Windows-Portable.exe) |
+| **2.2.1** (latest) | [Setup](releases/592-Compass-Beta-2.2.1-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.2.1-Windows-Portable.exe) |
+| 2.2.0 | [Setup](releases/592-Compass-Beta-2.2.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.2.0-Windows-Portable.exe) |
 | 2.1.0 | [Setup](releases/592-Compass-Beta-2.1.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.1.0-Windows-Portable.exe) |
 | 2.0.0 | [Setup](releases/592-Compass-Beta-2.0.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.0.0-Windows-Portable.exe) |
 | 1.9.1 | [Setup](releases/592-Compass-Beta-1.9.1-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.1-Portable.exe) |

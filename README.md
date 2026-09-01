@@ -2,7 +2,7 @@
 
 **592 Compass** is a desktop app for turning your GitHub activity into clear monthly and yearly work reports — with AI summaries, submission templates, evidence packs, and local task tracking.
 
-This repository contains **official Windows builds only**. Source code lives in the main [592-compass](https://github.com/tristoncarter34/592-compass) repo.
+This repository contains **official Windows builds only**. Source code lives in the main [592-compass](https://github.com/Taekondainc/592-compass) repo.
 
 ---
 
@@ -90,7 +90,7 @@ Windows may show SmartScreen on first run because the app is not code-signed. Cl
 
 ## Support
 
-- **Source & issues:** [github.com/tristoncarter34/592-compass](https://github.com/tristoncarter34/592-compass)
-- **Releases:** this repo (`compass_592-releases`)
+- **Source & issues:** [github.com/Taekondainc/592-compass](https://github.com/Taekondainc/592-compass)
+- **Releases:** [github.com/Taekondainc/compass_592-releases](https://github.com/Taekondainc/compass_592-releases)
 
 Built by Triston Carter · Taekonda

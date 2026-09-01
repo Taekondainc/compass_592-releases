@@ -12,12 +12,12 @@ This repository contains **official Windows builds only**. Source code lives in 
 
 | | |
 |---|---|
-| **Release** | **592 Compass Beta 1.9.0** |
+| **Release** | **592 Compass Beta 1.9.1** |
 | **Date** | September 2026 |
-| **Recommended** | [592-Compass-Beta-1.9.0-Setup.exe](releases/592-Compass-Beta-1.9.0-Setup.exe) (installer) |
-| **Portable** | [592-Compass-Beta-1.9.0-Portable.exe](releases/592-Compass-Beta-1.9.0-Portable.exe) (no install) |
+| **Recommended** | [592-Compass-Beta-1.9.1-Setup.exe](releases/592-Compass-Beta-1.9.1-Setup.exe) (installer) |
+| **Portable** | [592-Compass-Beta-1.9.1-Portable.exe](releases/592-Compass-Beta-1.9.1-Portable.exe) (no install) |
 
-> **Beta** includes chunked AI summaries, submission templates, plan-vs-shipped tracking, evidence pack export, and the updated blue UI.
+> **Beta 1.9.1** — chunked AI summaries with live progress, Groq rate-limit handling, snackbar fixes, and submission templates.
 
 ---
 
@@ -25,13 +25,13 @@ This repository contains **official Windows builds only**. Source code lives in 
 
 ### Option A — Installer (recommended)
 
-1. Download **`592-Compass-Beta-1.9.0-Setup.exe`** from the [releases folder](releases/).
+1. Download **`592-Compass-Beta-1.9.1-Setup.exe`** from the [releases folder](releases/).
 2. Run the installer and follow the prompts.
 3. Launch **592 Compass Beta** from the Start menu or desktop shortcut.
 
 ### Option B — Portable
 
-1. Download **`592-Compass-Beta-1.9.0-Portable.exe`**.
+1. Download **`592-Compass-Beta-1.9.1-Portable.exe`**.
 2. Move it anywhere you like (e.g. `Downloads` or a USB drive).
 3. Double-click to run — nothing is written to Program Files.
 
@@ -73,7 +73,8 @@ Windows may show SmartScreen on first run because the app is not code-signed. Cl
 
 | Version | Installer | Portable |
 |---------|-----------|----------|
-| **Beta 1.9.0** (latest) | [Setup](releases/592-Compass-Beta-1.9.0-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.0-Portable.exe) |
+| **Beta 1.9.1** (latest) | [Setup](releases/592-Compass-Beta-1.9.1-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.1-Portable.exe) |
+| Beta 1.9.0 | [Setup](releases/592-Compass-Beta-1.9.0-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.0-Portable.exe) |
 | 1.9.0 | [Setup](releases/592-Compass-1.9.0-Setup.exe) | [Portable](releases/592-Compass-1.9.0-Portable.exe) |
 | 1.8.0 | [Setup](releases/592-Compass-1.8.0-Setup.exe) | [Portable](releases/592-Compass-1.8.0-Portable.exe) |
 | 1.7.0 | [Setup](releases/592-Compass-1.7.0-Setup.exe) | [Portable](releases/592-Compass-1.7.0-Portable.exe) |

@@ -1,99 +1,85 @@
-# 592 Compass — Windows Releases
+# 592 Compass — Desktop Releases
 
 **592 Compass** is a desktop app for turning your GitHub activity into clear monthly and yearly work reports — with AI summaries, submission templates, evidence packs, and local task tracking.
 
 ![592 Compass — submission reports dashboard](assets/app-screenshot.png)
 
-This repository contains **official Windows builds only**. Source code lives in the main [592-compass](https://github.com/Taekondainc/592-compass) repo.
+Official builds for **Windows**, **macOS**, and **Linux**. Source code: [592-compass](https://github.com/tristoncarter34/592-compass) (private).
 
 ---
 
-## Latest version
+## Latest version — Beta 2.0.0
 
-| | |
-|---|---|
-| **Release** | **592 Compass Beta 1.9.1** |
-| **Date** | September 2026 |
-| **Recommended** | [592-Compass-Beta-1.9.1-Setup.exe](releases/592-Compass-Beta-1.9.1-Setup.exe) (installer) |
-| **Portable** | [592-Compass-Beta-1.9.1-Portable.exe](releases/592-Compass-Beta-1.9.1-Portable.exe) (no install) |
+| Platform | Download |
+|----------|----------|
+| **Windows** (installer) | [592-Compass-Beta-2.0.0-Windows-Setup.exe](releases/592-Compass-Beta-2.0.0-Windows-Setup.exe) |
+| **Windows** (portable) | [592-Compass-Beta-2.0.0-Windows-Portable.exe](releases/592-Compass-Beta-2.0.0-Windows-Portable.exe) |
+| **macOS** (Apple Silicon) | [DMG](releases/592-Compass-Beta-2.0.0-macOS-AppleSilicon.dmg) · [ZIP](releases/592-Compass-Beta-2.0.0-macOS-AppleSilicon.zip) |
+| **macOS** (Intel) | [DMG](releases/592-Compass-Beta-2.0.0-macOS-Intel.dmg) · [ZIP](releases/592-Compass-Beta-2.0.0-macOS-Intel.zip) |
+| **Linux** | [AppImage](releases/592-Compass-Beta-2.0.0-Linux.AppImage) · [DEB](releases/592-Compass-Beta-2.0.0-Linux.deb) |
 
-> **Beta 1.9.1** — chunked AI summaries with live progress, Groq rate-limit handling, snackbar fixes, and submission templates.
+> **2.0.0** — cross-platform desktop builds, cached month reports, chunked AI summaries, Groq key fixes, submission templates, and evidence pack export.
 
 ---
 
 ## Install
 
-### Option A — Installer (recommended)
+### Windows
 
-1. Download **`592-Compass-Beta-1.9.1-Setup.exe`** from the [releases folder](releases/).
-2. Run the installer and follow the prompts.
-3. Launch **592 Compass Beta** from the Start menu or desktop shortcut.
+1. Download **Setup** (recommended) or **Portable**.
+2. Run the installer, or double-click the portable `.exe`.
+3. If SmartScreen appears: **More info → Run anyway** (app is not code-signed).
 
-### Option B — Portable
+### macOS
 
-1. Download **`592-Compass-Beta-1.9.1-Portable.exe`**.
-2. Move it anywhere you like (e.g. `Downloads` or a USB drive).
-3. Double-click to run — nothing is written to Program Files.
+1. Download the **DMG** for your Mac (Apple Silicon or Intel).
+2. Open the DMG and drag **592 Compass Beta** to Applications.
+3. First launch: **System Settings → Privacy & Security → Open Anyway** if macOS blocks an unsigned app.
 
-Windows may show SmartScreen on first run because the app is not code-signed. Click **More info → Run anyway** if you trust this download.
+### Linux
+
+**AppImage (recommended):**
+```bash
+chmod +x 592-Compass-Beta-2.0.0-Linux.AppImage
+./592-Compass-Beta-2.0.0-Linux.AppImage
+```
+
+**Debian/Ubuntu:**
+```bash
+sudo dpkg -i 592-Compass-Beta-2.0.0-Linux.deb
+```
 
 ---
 
 ## How to use
 
-### 1. Sign in
-
-- Open the app and sign in with your **GitHub username** and a **Personal Access Token** ([create one here](https://github.com/settings/tokens) with `repo` scope).
-- Optional: add a **Groq API key** in Settings (`gsk_…`) for free AI summaries — [console.groq.com/keys](https://console.groq.com/keys).
-
-### 2. Browse your year
-
-- Pick a **year** and **repository** (or *All repositories*).
-- Click any **month** to open a detailed report: merged PRs, open/closed PRs, commits, and a narrative summary.
-
-### 3. Generate & submit reports
-
-- **Copy / Save / Share** — export as Markdown, PDF, Word, or plain text.
-- **Submission templates** — Standard, Performance, Client, Contractor, or Manager formats.
-- **Detailed AI summary** — opt-in table with one AI-written line per PR/commit (batches automatically for busy months).
-- **Evidence pack** — zip with report, links, and metadata for audits or clients.
-- **Plan vs shipped** — compare local tasks to what actually merged.
-
-### 4. Tasks
-
-- Use the **Tasks** tab to track planned work locally and link it to branches/repos in your reports.
-
-### 5. Year report
-
-- Click **Year report** for a full-year rollup with the same export and share options.
+1. **Sign in** with your GitHub username and a [Personal Access Token](https://github.com/settings/tokens) (`repo` scope).
+2. **Settings → AI reports** — add a Groq key (`gsk_…`) for AI summaries ([free at console.groq.com/keys](https://console.groq.com/keys)).
+3. Pick a **year** and **month**, open a report, export with templates (Standard, Performance, Client, etc.).
+4. Use **Tasks** for local plan-vs-shipped tracking.
 
 ---
 
-## All releases
+## All Windows releases
 
 | Version | Installer | Portable |
 |---------|-----------|----------|
-| **Beta 1.9.1** (latest) | [Setup](releases/592-Compass-Beta-1.9.1-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.1-Portable.exe) |
-| Beta 1.9.0 | [Setup](releases/592-Compass-Beta-1.9.0-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.0-Portable.exe) |
+| **2.0.0** (latest) | [Setup](releases/592-Compass-Beta-2.0.0-Windows-Setup.exe) | [Portable](releases/592-Compass-Beta-2.0.0-Windows-Portable.exe) |
+| 1.9.1 | [Setup](releases/592-Compass-Beta-1.9.1-Setup.exe) | [Portable](releases/592-Compass-Beta-1.9.1-Portable.exe) |
 | 1.9.0 | [Setup](releases/592-Compass-1.9.0-Setup.exe) | [Portable](releases/592-Compass-1.9.0-Portable.exe) |
-| 1.8.0 | [Setup](releases/592-Compass-1.8.0-Setup.exe) | [Portable](releases/592-Compass-1.8.0-Portable.exe) |
-| 1.7.0 | [Setup](releases/592-Compass-1.7.0-Setup.exe) | [Portable](releases/592-Compass-1.7.0-Portable.exe) |
-| 1.6.0 | [Setup](releases/592-Compass-1.6.0-Setup.exe) | [Portable](releases/592-Compass-1.6.0-Portable.exe) |
-| 1.5.0 | [Setup](releases/592-Compass-1.5.0-Setup.exe) | [Portable](releases/592-Compass-1.5.0-Portable.exe) |
 
 ---
 
 ## Requirements
 
-- **Windows 10/11** (64-bit)
-- **GitHub account** with a Personal Access Token
-- **Internet** for GitHub API and optional AI features
+- **Windows 10/11**, **macOS 11+**, or **Ubuntu 20.04+** / Debian-based Linux (64-bit)
+- GitHub account with a Personal Access Token
+- Internet for GitHub API and optional AI features
 
 ---
 
 ## Support
 
-- **Source & issues:** [github.com/Taekondainc/592-compass](https://github.com/Taekondainc/592-compass)
 - **Releases:** [github.com/Taekondainc/compass_592-releases](https://github.com/Taekondainc/compass_592-releases)
 
 Built by Triston Carter · Taekonda

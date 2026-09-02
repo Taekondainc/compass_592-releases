@@ -4,7 +4,7 @@
 
 ![Vantage — submission reports dashboard](assets/app-screenshot.png)
 
-Official builds for **Windows**, **macOS**, and **Linux**. Source code: [vantage](https://github.com/tristoncarter34/vantage) (private).
+Official builds for **Windows**, **macOS**, and **Linux**. Source code lives in the private [Taekondainc/vantage](https://github.com/Taekondainc/vantage) repository.
 
 ---
 
